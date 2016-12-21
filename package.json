@@ -1,0 +1,23 @@
+{
+  "name": "intitle",
+  "version": "1.0.0",
+  "description": "[![Build Status](https://travis-ci.org/tonydeng/intitle.svg?branch=master)](https://travis-ci.org/tonydeng/intitle)",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tonydeng/intitle.git"
+  },
+  "keywords": [
+    "intitle",
+    "name"
+  ],
+  "author": "Tony Deng",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/tonydeng/intitle/issues"
+  },
+  "homepage": "https://github.com/tonydeng/intitle#readme"
+}
