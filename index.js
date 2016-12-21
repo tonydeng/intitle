@@ -34,7 +34,6 @@ function SearchSong(searchOption, callback){
     let pagesCount = searchOption.debug && searchOption.debug.num ? searchOption.debug.num : 114;
     let pagesRequest = Array.apply(null, {length: pagesCount}).map(function(item, i){
         let url = 'http://so.gushiwen.org/mingju/Default.aspx?p='+(i+1)+'&c=&t=';
-        console.log(url);
         return sendRequest(url).then(function(html) {
             let parseHTML = $.load(html);
 
